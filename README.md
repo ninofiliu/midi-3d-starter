@@ -1,6 +1,6 @@
 # Midi 3D starter
 
-I experiment with a lot MIDI-controlled 3D shit and they all start out the same so I figured I'd create a proper boilerplate repo for this
+I experiment with a lot MIDI-controlled 3D that runs in the browser and they all start out the same so I figured I'd create a proper boilerplate repo for this
 
 ![demo](./demo.gif)
 
