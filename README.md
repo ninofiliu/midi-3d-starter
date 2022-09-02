@@ -7,9 +7,9 @@ I experiment with a lot MIDI-controlled 3D shit and they all start out the same 
 1. If that's not already the case, install [Node](https://nodejs.org/en/) and [Pnpm](https://pnpm.io/)
 2. Install dependencies: `pnpm install`
 3. Run the development environment: `pnpm run dev`
-4. Navigate to the dev URL displayed by the command above in Chromium-based browsers
-5. Connect your MIDI device, it should be automatically detected, if not, uh, oopsie ^^ maybe check out [this guide](https://web.dev/usb/)?
-6. Play some notes and tweak some knobs
+4. Connect your MIDI device, it should be automatically detected, if not, uh, oopsie ^^ maybe check out [this guide](https://web.dev/usb/)? Make sure you connect your device _before_ opening the web app. I was too tired to code the device live connection/disconnection lol sorry xx
+5. [Go there](http://localhost:5173/) in Chromium-based browsers
+6. Play some notes and tweak some knobs. There should be a lot of stuff logged inside the console, and stuff should move on the screen
 
 ## How it works
 
