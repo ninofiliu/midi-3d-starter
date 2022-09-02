@@ -13,7 +13,14 @@ I experiment with a lot MIDI-controlled 3D shit and they all start out the same 
 
 ## How it works
 
-Just a simple combination of existing technologies:
+The web app should
+
+- Log all MIDI events in the console
+- Display a bunch of blue balls
+- If you press a midi key, a blue ball should turn red
+- If you turn any knob, the balls should shrink or grow
+
+It works by doing a simple combination of existing technologies:
 
 - [Web MIDI](https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API), a set of functionalities allowing browsers to directly talk with MIDI controllers
   > **Note**
